@@ -5,7 +5,7 @@ from utils import extract_transform_load, json_serializable
 from config import FOLDER_PATH, DATABASE_URL, DB_NAME
 import logging
 
-logging.basicConfig(filename='main.log', level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 app = Flask(__name__)
 engine = create_engine(DATABASE_URL)
 
