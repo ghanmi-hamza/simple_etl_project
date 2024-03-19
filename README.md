@@ -14,7 +14,7 @@
 
 Simple ETL “Extract – Transform – Load” pipeline that ingests 1 or multiple CSV files into a Database.
 
-- It starts by Extracting data from CSV files in the csv_files folder, concatenate them into one dataframe and then store the output into sqlalchemy.
+- It starts by Extracting data from CSV files in the csv_files folder, concatenating them into one dataframe, and then storing the output into an SQLite database using SQLAlchemy.
 - the endpoint “/read/first-chunk“ will output the first 10 lines from the Database
 
 
